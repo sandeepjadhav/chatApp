@@ -1,0 +1,48 @@
+.testWrap1{
+  position: absolute;
+  right: 270px;
+  border: 0;
+  border: 1px solid #8e958e;
+  border-radius: 4px;
+  bottom: 0;
+}
+.testArea{
+  height: 150px;
+}
+
+.testWrap0{
+  position: absolute;
+  right: 10px;
+  border: 0;
+  border: 1px solid #8e958e;
+  border-radius: 4px;
+  bottom: 0;
+  width: 250px;
+}
+.text-body{
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.messageText{
+  width: 100%;
+  position: relative;
+}
+
+.messageText>span{
+  padding: 4px;
+  border-radius: 11px;
+  font-size: 14px;
+}
+.messageText.text-right>span{
+  background-color: #628cba;
+  color: #fff;
+}
+
+.messageText.text-left>span{
+  background-color: #c0b6b6;
+}
+
+.card-body.text-body{
+  padding: 5px;;
+}
